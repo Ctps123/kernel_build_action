@@ -45,7 +45,7 @@ jobs:
           branch: 14
           config: vendor/amogus_defconfig
           arch: arm64
-          aosp-gcc: false
+          aosp-gcc: true
           aosp-clang: true
           ksu: true
           ksu-version: main
